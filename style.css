@@ -23,9 +23,13 @@ a
 {
   text-align: left;
   font-family: Copperplate;
-
+  text-decoration: none;
+  transition:transform 0.3s ease;
 }
-
+a:hover
+{
+  transform:scale(1.1);
+}
 
 
 ul 
