@@ -55,3 +55,42 @@ li{
 #a2{
   text-align: center;
 }
+
+header{
+  padding: auto;
+  height:100px;
+  width:100%;
+  background-color:rgb(126, 119, 119);
+  position: relative;
+  display:flex;
+}
+ header ul{
+  right: 0;
+  position: absolute;
+  display: flex;
+  list-style:none ;
+  justify-content: space-between;
+  width:1100px;
+  text-align: center;
+ }
+header a{
+  margin: auto;
+  text-align: center;
+  width:auto;
+  height: 32px;
+  padding:10px;
+  background-color:transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+}
+
+.A{
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: aliceblue;
+  margin-left: 50px;
+
+}
